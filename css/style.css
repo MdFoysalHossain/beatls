@@ -1,0 +1,740 @@
+/* GOOGLE FONTS List:
+1. Open Sans
+2. Oswald
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "sans-serif";
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+p{
+    font-family: "Open Sans", "sans-serif";
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oswald", "sans-serif";
+}
+
+/* END OF COMMON CSS */
+
+/*======================== SECTION HEADER START ========================*/
+
+.section_header_full{
+    text-align: center;
+}
+.section_header_center{
+    text-align: left;
+    display: inline-block;
+}
+.section_header_center h2{
+    margin-bottom: -12px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+
+/*======================== SECTION HEADER ENDED ========================*/
+
+
+/*======================== HEADER AREA START ========================*/
+.header_area{}
+.upper_header{
+    background: #0872b9;
+}
+.header_left{
+    width: 50%;
+    float: left;
+}
+.header_left p{
+    font-size: 14px;
+    color: #e7e7e7;
+    line-height: 1;
+    padding: 9px 0;
+}
+
+.header_right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.header_right a{
+    padding: 9px 0;
+    padding-left: 21px;
+    color: #e7e7e7;
+    font-size: 14px;
+    line-height: 1;
+    transition: all .3s linear;
+}
+
+.header_right a:hover{
+    color: #353535 ;
+}
+/*========================= HEADER AREA END =========================*/
+
+/*========================= NAVBAR AREA START =========================*/
+#active_menu{
+    color: #0872b9;
+}
+
+.menu_area{}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.logo img{
+    padding: 16px 0;
+}
+
+.menu_bar{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+.menu_bar ul{}
+
+.menu_bar ul li{
+    display: inline-block;
+}
+
+.menu_bar ul li a{
+    font-size: 14px;
+    color: #353535;
+    line-height: 1;
+    padding: 32px 0;
+    padding-left: 10px;
+    transition: all .3s linear;
+}
+
+.menu_bar ul li a:hover{
+    color: #0872b9;
+}
+/*========================== NAVBAR AREA END ==========================*/
+
+/*========================== BANNER AREA START ==========================*/
+
+.banner_area{
+    background: url(..//images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_opacity{
+    background: rgba(0, 0, 0, .6);
+}
+.banner_text{
+    text-align: right;
+    padding: 85px 0;
+}
+.banner_text h2{
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+.banner_text h1{
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+}
+
+.banner_text p{
+    font-family: 'Open Sans', 'sans-serif';
+	color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+	line-height: 1.8;
+	padding-left: 663px;
+    padding-bottom: 26px;
+}
+
+
+.banner_button{}
+.banner_button a{
+    color: #fff;
+    padding: 4px 18px;
+    border: 1px solid #fff;
+    font-family: "Oswald", "sans-serif";
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: transparent;
+    transition: all .3s linear;
+    margin-left: 16px;
+}
+
+.banner_button a:hover{
+    border: 1px solid #0872b9;
+    background: #0872b9;
+}
+/*========================== BANNER AREA END ==========================*/
+
+
+/*========================== ABOUT US AREA START ==========================*/
+
+.about_area{}
+.about_content{
+    padding-top: 35px;
+}
+.about_content_left{
+    float: left;
+    width: 35%;
+    float: left;
+}
+.about_content_left img{}
+.about_content_right{
+    width: 65%;
+    float: left;
+}
+.about_content_right p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #555555;
+    display: inline-block;
+}
+.about_right_p_one{
+    padding-top: 54px;
+    padding-bottom: 25px;
+}
+.about_right_p_two{}
+
+/*========================== ABOUT US AREA END ==========================*/
+
+/*========================== SERVICES AREA START ==========================*/
+
+.services_area{}
+.services_body{
+    margin-top: 65px;
+}
+.services_types{
+    width: 30%;
+    background: #f1f1f1;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 21px;
+    float: left;
+    transition: all .3s linear;
+}
+
+.services_types:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services_types:hover .ser_icn_outbdr_one{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+    background: #5bc5f4;
+}
+.services_types:hover .ser_icn_outbdr_three{
+    background: #5bc5f4;
+}
+
+.ser_icn_outbdr_one{
+    height: 81px;
+    width: 81px;
+    border-radius: 50%;
+    background: #dddddd;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%); 
+    transition: all .3s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.ser_icn_outbdr_two{
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 2px;
+    margin-top: 2px;
+    padding: 1px;
+}
+
+.ser_icn_outbdr_three{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    text-align: center;
+    padding-top: 14px;
+    transition: all .3s linear;
+}
+
+.services_text{
+    text-align: center;
+    padding-top: 29px;
+    
+}
+.services_text h3{
+    line-height: 1;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+.services_text p{
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+    padding-bottom: 19px;
+}
+
+/*========================== SERVICES AREA END ==========================*/
+
+
+/*========================== PROTFOLIO AREA START ==========================*/
+
+.single_portfolio_one{
+    float: left;
+    width: 270px;
+    margin-top: 25px;
+}
+.portfolio_one{
+    position: relative;
+    
+}
+.portfolio_one img{
+    margin-bottom: -5px;
+    width: 100%;
+}
+.portfolio_one_overlay{
+    background: rgba( 0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear; 
+}
+
+.portfolio_one:hover .portfolio_one_overlay{
+    opacity: 1;
+    visibility:visible;
+}
+
+.port_icon_bdr{
+    height: 40px;
+    width: 40px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.port_icon_bdr a{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*=========================== PROTFOLIO AREA END ===========================*/
+
+/*=========================== OUR TEAM AREA START ===========================*/
+
+.team_area{}
+
+.single_team{
+    float: left;
+    width: 270px;
+}
+
+.single_image{
+    position: relative;
+    transition: all .3s linear;
+}
+
+.single_image img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -5px;
+}
+
+.single_image_overlay{
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    
+}
+
+.s_i_o_icon{
+    width: 38px;
+    height: 38px;
+    background: transparent;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid #fff;
+    transform: translateX(50%);
+    transition: all .3s linear;
+}
+.s_i_o_icon a{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.single_image:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .3);
+}
+
+.single_image:hover .single_image_overlay{
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+    right: 0;
+}
+
+.single_text:hover .single_text_h4{
+    color: #5bc5f4;
+}
+
+.s_i_o_icon:hover{
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;   
+}
+
+
+.single_text{
+    text-align: center;
+    
+}
+
+.single_text_h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #353535;
+    transition: all .3s linear;
+}
+
+.single_text p{
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+}
+
+/*============================ OUR TEAM AREA END ============================*/
+/*============================ TESTIMONIAL AREA START ============================*/
+
+.testimonial_area{}
+.full_testimonial{
+    width: 100%;
+}
+
+.single_testimonial{
+    width: 48%;
+    float: left;
+    position: relative;
+}
+
+.single_img{
+    text-align: center;
+    line-height: 1;
+}
+
+.single_arrow{
+    height: 50px;
+    width: 50px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(45deg) translate(40px, 75px);
+}
+
+.single_testimonial_text{
+    width: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100px);
+    text-align: center;
+    padding: 0 16px;
+}
+
+.single_testimonial_text h3{
+    text-transform: uppercase;
+    margin-top: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    line-height: 1;
+}
+
+.testimonial_stars{
+    margin-bottom: 7px;
+    margin-top: 6px;
+    line-height: 1;
+}
+
+.testimonial_stars i{
+    color: #5bc5f4;
+    font-size: 13px;
+}
+
+.testimoiona_upper_text{
+    font-family: "Oswald", 'sans-serif';
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.testimoiona_lower_text{
+    font-family: "Oswald", 'sans-serif';
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/*============================ TESTIMONIAL AREA END ============================*/
+
+
+/*============================ FOOTER AREA START ============================*/
+
+.footer_area{
+    margin-top: 285px;
+    background: #353535;
+    width: 100%;
+}  
+
+.footer_half{
+    width: 50%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+/* FOOTER PART 1 START */
+.footer_first{
+    width: 49%;
+    float: left;
+/*    background: #ff9941;*/
+    padding-right: 5px;
+}
+
+.footer_first img{
+    margin-top: 20px;
+}
+
+.footer_first_p1{
+    margin: 20px 0;
+    font-size: 13px;
+    color: #f1f1f1;
+}
+
+.footer_first_p2{
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: #f1f1f1;
+}
+/* FOOTER PART 1 END */
+
+/* FOOTER PART 2 START */
+.footer_second{
+    width: 49%;
+    float: left;
+/*    background: #ff4141;*/
+    height: 100%;
+    color: #fff;
+}
+
+.footer_second h3{
+    margin-top: 28px;
+    margin-bottom: 27px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ftr_ctcus_up1{}
+
+.ftr_ctcus_up1_icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #00ff4e;
+    background: #5bc5f4;
+    float: left;
+}
+
+.ftr_ctcus_up1_icon i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.ftr_ctcus_up1_text{
+    font-size: 13px;
+    float: left;
+    padding-left: 10px;
+    color: #fff;
+}
+.ftr_ctcus_up1_p1{}
+.ftr_ctcus_up1_p2{}
+/* FOOTER PART 2 END */
+
+
+.footer_other_half{
+    width: 50%;
+    float: left;
+}
+
+
+/* FOOTER PART 3 START */
+
+.footer_third{
+    float: left;
+    width: 40%;
+}
+
+.footer_third h3{
+    margin-top: 28px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer_menu{
+    float: left;
+}
+.footer_menu ul{}
+.footer_menu li{
+    line-height: 2;
+}
+.footer_menu li a{
+    color: #fff;
+    font-size: 13px;
+    transition: all .3s linear;
+}
+
+.footer_menu li a:hover{
+    color: #5bc5f4;
+}
+
+/* FOOTER PART 3 END */
+
+/* FOOTER PART 4 START */
+
+.footer_fourth{
+    float: left;
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+.footer_fourth h3{
+    margin-top: 28px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* FOOTER PART 4 END */
+
+.copyright_area{
+    width: 100%;
+    background: #555555;
+    text-align: center;
+}
+
+.copyright_center{
+    font-size: 13px;
+    padding: 15px 0;
+}
+
+.copyright_text{
+    display: inline-block;
+    color: #fff;
+}
+
+.copyright_url{
+    font-family: 'Oswald', 'sans-serif';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5bc5f4;
+}
+
+/*============================ FOOTER AREA END ============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
